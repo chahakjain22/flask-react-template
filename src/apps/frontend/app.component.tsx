@@ -1,3 +1,4 @@
+import CommentForm from './components/CommentForm';
 import { ErrorBoundary } from '@datadog/browser-rum-react';
 import React, { useEffect } from 'react';
 import { Toaster } from 'react-hot-toast';
@@ -27,6 +28,7 @@ export default function App(): React.ReactElement {
       <AuthProvider>
         <AccountProvider>
           <Toaster />
+          <CommentForm />
           <AppRoutes />
         </AccountProvider>
       </AuthProvider>

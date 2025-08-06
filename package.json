@@ -67,7 +67,7 @@
     "@types/config": "0.0.41",
     "@types/google-libphonenumber": "^7.4.30",
     "@types/lodash": "^4.14.186",
-    "@types/react": "^18.3.21",
+    "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
     "@typescript-eslint/eslint-plugin": "^6.20.0",
     "@typescript-eslint/parser": "^6.20.0",

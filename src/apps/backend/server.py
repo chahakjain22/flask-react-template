@@ -91,7 +91,7 @@ def handle_error(exc: AppError) -> ResponseReturnValue:
     return jsonify({"message": exc.message, "code": exc.code}), exc.http_code or 500
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    app.run(debug=True, port=8080)
 
 @app.route('/ping')
 def ping():
